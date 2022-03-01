@@ -1,0 +1,40 @@
+{
+  "title": "Material demo",
+  "scripts": {
+    "start": "react-scripts start"
+  },
+  "main": "index.tsx",
+  "devDependencies": {
+    "@types/styled-components": "^5.1.23",
+    "react-scripts": "latest"
+  },
+  "description": "https://github.com/mui-org/material-ui/blob/master/docs/src/pages/components/autocomplete/ComboBox.tsx",
+  "dependencies": {
+    "@material-ui/core": "latest",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/lab": "latest",
+    "@material/card": "^13.0.0",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "axios": "^0.26.0",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-image": "^4.0.3",
+    "styled-components": "^5.3.3",
+    "typescript": "latest"
+  },
+  "keywords": [],
+  "name": "67124239-how-to-show-material-ui-autocomplete-drop-down-list-when-only-typing-something",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
