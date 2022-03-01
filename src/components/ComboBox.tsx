@@ -84,7 +84,7 @@ export function ComboBox() {
       {/* Componente Cards */}
       <Grid container>
         {dbCards.map((card) => {
-          return <Cards key={card.id} card={card} classes/>
+          return <Cards key={card.id} card={card} />
         })}
       </Grid>
     </>

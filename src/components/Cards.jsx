@@ -2,7 +2,7 @@ import React from "react";
 import { Img } from 'react-image'
 import { Card, CardMedia, CardContent, Typography } from '@material-ui/core'
 
-export function Cards({card, classes}){
+export function Cards({card}){
 
   return(
     <Card>
@@ -11,7 +11,7 @@ export function Cards({card, classes}){
       </CardMedia>
       <CardContent>
         <Typography>{card.nomePais}</Typography>
-        <Typography><hr /></Typography>
+        <hr />
       </CardContent>
       <CardContent>
         <Typography>Local: {card.local}</Typography>
